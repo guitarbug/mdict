@@ -1,4 +1,21 @@
+body
+{
+  background: #ffffff;
+}
+/* Dictionary's name heading */
+.gddictname
+{
+  border: 2px dotted black; padding: 0.2em; padding-left: 0.5em;
+  margin-top: 1.2em; margin-bottom: 9px; font-weight: bold; font-size: 14px;
+  background: #DDEBF7;
+}
 
+/* The article span. Here we have a padding/margin hack to make fragment links
+   behave better (have some space before the start of article) */
+.gdarticle
+{
+  background: #ffffff;
+}
 
 /*
 .gddicttitle {
