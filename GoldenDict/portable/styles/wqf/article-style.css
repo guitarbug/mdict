@@ -1,0 +1,34 @@
+
+
+/*
+.gddicttitle {
+    visibility: hidden !important;
+    position: relative;
+}
+
+.gddicttitle::after {
+    content: "TTTT" !important;
+    visibility: visible !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+*/
+
+/* 只替换特定词典的名称 */
+
+.gddictname[id="gddictname-3370e65d106541a751d759be6b71d0c1"] .gddicttitle {
+    visibility: hidden !important;
+    position: relative;
+}
+
+.gddictname[id="gddictname-3370e65d106541a751d759be6b71d0c1"] .gddicttitle::after {
+    content: "oalecd9-mini" !important;
+    visibility: visible !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
